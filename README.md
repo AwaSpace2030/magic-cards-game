@@ -1,5 +1,5 @@
  
-# Magic Cards Memory Game
+# Magic Cards React Game
 
 A simple and interactive **memory matching game** built with **React**.
 The goal of the game is to match all card pairs using the fewest number of turns.
