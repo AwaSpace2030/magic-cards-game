@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+ 
+# Magic Cards Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive **memory matching game** built with **React**.
+The goal of the game is to match all card pairs using the fewest number of turns.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+Try the game online: [Magic Cards Game](https://magic-cards-game.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎮 How the Game Works
 
-### `npm test`
+* Click on a card to flip it.
+* Flip two cards at a time.
+* If the two cards match, they stay flipped.
+* If they don’t match, they flip back after a short delay.
+* Each pair attempt counts as **one turn**.
+* Try to match all cards in as few turns as possible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Card shuffle on every new game
+* Smooth card flip animation
+* Turn counter
+* Matched cards remain visible
+* Clean and responsive UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Built With
 
-### `npm run eject`
+* **React**
+* **JavaScript (ES6)**
+* **CSS**
+* **Google Fonts (Sora)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src/
+│
+├── components/
+│   └── SingleCard.js
+│
+├── App.js
+├── App.css
+└── index.js
 
-## Learn More
+````
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started
 
-### Code Splitting
+### 1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/AwaSpace2030/magic-cards-game.git
+````
 
-### Analyzing the Bundle Size
+### 2️⃣ Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+### 3️⃣ Run the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+The app will run on:
+👉 `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🔄 New Game
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Click the **"Play New Game"** button to reshuffle the cards and reset the turn counter.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📊 Turns Counter
+
+The **Turns** counter shows how many attempts you made to match card pairs.
+
+---
+
+## 📌 Future Improvements (Optional)
+
+* Add a win message when all cards are matched
+* Save best score
+* Add difficulty levels
+* Add sound effects
+
+---
+
+## 👤 Author
+
+Created by **[ِAwadh Aldeabi]**
+ 
